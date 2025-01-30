@@ -302,7 +302,7 @@ function App() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1639815188546-c43c240ff4df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80"
+                src="/img1.jpeg"
                 alt="Lake Bled with mountains and church"
                 className="rounded-lg shadow-xl w-full h-[400px] object-cover"
               />
