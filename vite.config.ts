@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/', // This will be replaced with your actual repo name
+  base: '/', // Changed to root path since we're using a custom domain
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
