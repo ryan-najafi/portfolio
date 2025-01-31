@@ -153,7 +153,7 @@ function App() {
       quotes: [
         {
           text: "Ryan is an exceptional technical leader who combines deep expertise in machine learning and healthcare with a collaborative, team-focused approach. His ability to deliver impactful results while mentoring others sets him apart.",
-          author: "Gautam Prasad",
+          author: <a href="https://www.linkedin.com/in/drgautamprasad/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Gautam Prasad</a>,
           role: "Manager at Google"
         },
         {
@@ -251,7 +251,7 @@ function App() {
           <h2 className="text-6xl font-bold text-white mb-6">Ryan Arman</h2>
           <p className="text-2xl text-blue-400 mb-8">Transforming Healthcare, Robotics, AI, and Ranking Systems with Two Decades of Innovation and Leadership</p>
           <p className="text-xl text-gray-300 mb-12 leading-relaxed">
-            Hi, I'm Ryan Arman (formerly Mohammad/Mohi/Ryan Najafi), a technical leader, innovator, and entrepreneur with over two decades of experience in machine learning, medical devices, human-AI interaction, robotics, and ranking systems. 
+            Hi, I'm Ryan Arman, a technical leader, innovator, and entrepreneur with over two decades of experience in machine learning, medical devices, human-AI interaction, robotics, and ranking systems. 
           </p>
           <p className="text-xl text-gray-300 mb-12 leading-relaxed">
             My journey spans groundbreaking contributions in healthcare AI, robotics, and ads ranking systems. I've built solutions that directly impact lives, from improving cancer diagnosis workflows to enabling precision in robotic surgery and optimizing large-scale ranking systems. 
@@ -378,7 +378,17 @@ function App() {
                 </li>
                 <li className="flex items-start">
                   <Award className="mr-2 mt-1 text-yellow-600 flex-shrink-0" />
-                  <span>Best of Radiology Advances 2024: Recognized for breast cancer detection work</span>
+                  <span>
+                    <a 
+                      href="https://academic.oup.com/radadv/pages/best-of-radiology-advances?login=false"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:text-blue-800 hover:underline"
+                    >
+                      Best of Radiology Advances 2024
+                    </a>
+                    : Recognized for breast cancer detection work
+                  </span>
                 </li>
                 <li className="flex items-start">
                   <Award className="mr-2 mt-1 text-yellow-600 flex-shrink-0" />
