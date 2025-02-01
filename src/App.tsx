@@ -152,19 +152,54 @@ function App() {
       category: "Leadership and Mentorship",
       quotes: [
         {
-          text: "Ryan is an exceptional technical leader who combines deep expertise in machine learning and healthcare with a collaborative, team-focused approach. His ability to deliver impactful results while mentoring others sets him apart.",
+          text: [
+            "Ryan is an extremely talented technical leader with a successful track record of scientific contributions supported by his machine learning and research skills. I had the opportunity to work with him as his direct manager on modeling geospatial environmental signals.",
+            
+            "Ryan identified key data pipeline and computer vision modeling goals for our geospatial modeling research work that were critical for us to make progress. He led a working group of engineers and scientists across the company to quickly achieve these milestones to understand the potential of our datasets and how they might be integrated into products. He was also able to demonstrate impressive communication skills by showcasing the technologies we developed to multiple product stakeholders, understand the timelines and technical work to integrate into products, and influence those partners to contribute their own time and expertise to the effort.",
+            
+            "In addition, Ryan was able to balance his work with creative and novel contributions to address lung cancer. He was able to successfully plan and manage a student researcher project under tight deadlines and is a significant contributor to multiple ongoing publications in collaborations with other researchers on our team.",
+            
+            "Ryan possesses a unique skillset of understanding how technology can practically be applied, able to communicate and lead technical efforts to achieve those goals, and he has a deep understanding of the underlying science to be able to accelerate process and focus a team's efforts on the most important tasks. Ryan would be a valuable asset to any company and has my highest recommendation."
+          ].map((paragraph, i) => (
+            <p key={i} className="mb-4 last:mb-0">
+              {paragraph}
+            </p>
+          )),
           author: <a href="https://www.linkedin.com/in/drgautamprasad/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Gautam Prasad</a>,
-          role: "Manager at Google"
+          role: "Staff Software Engineer and Manager at Google Research"
         },
         {
-          text: "Ryan was my mentor at Google for two years. He came to work every day with a positive attitude and truly cared about the well-being of his teammates. It was an honor to work with Ryan, not only for his technical skills but also for the supportive presence he provided to the team.",
-          author: "Kendall Park",
-          role: "Google"
+          text: [
+            "I was Ryan's manager at Google from 2021-22. During this time, I worked closely with Ryan and can attest to his intelligence, drive, and exceptional interpersonal skills.",
+            
+            "Ryan has a passion for research and he consistently brought innovative ideas to the table. He is dedicated to his work and persistent in ensuring that projects are completed. This was demonstrated by his numerous papers submitted for publication during his time at Google.",
+            
+            "Ryan also has enthusiasm for mentorship and he mentored an intern while he was reporting to me. I observed firsthand that Ryan worked hard to create a welcoming environment and provide regular guidance for the intern's project. The intern spoke highly of Ryan's guidance and support when their internship concluded.",
+            
+            "Ryan is a talented individual with a passion for research and a drive to succeed. I am confident that he will be a valuable asset to any team."
+          ].map((paragraph, i) => (
+            <p key={i} className="mb-4 last:mb-0">
+              {paragraph}
+            </p>
+          )),
+          author: <a href="https://www.linkedin.com/in/daniel-golden/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Daniel Golden</a>,
+
+          role: "Machine Learning Lead at Google Health"
         },
         {
-          text: "Ryan is kind, caring, and thoughtful as a mentor. He provides guidance, connects you to the right resources, and stays engaged to ensure success. Working under his direction was one of the highlights of my career.",
-          author: "Ryan Neph",
-          role: "Researcher"
+          text: "I had the pleasure of working under Ryan's direction on a research project applying Machine Learning methods to a novel medical application. Ryan was generous with his time, offering technical guidance and feedback on my progress. He was never discouraged by the challenges of the project, and quickly provided answers to my questions, or connected me to somebody else that could, then stayed engaged to ensure follow-through. As a mentor, Ryan was kind, caring, and thoughtful of my needs. I would be ecstatic to have another opportunity to work him.",
+          author: <a href="https://www.linkedin.com/in/ryanneph/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Ryan Neph</a>,
+          role: "Senior Software Engineer at Google"
+        },
+        {
+          text: "Ryan was my mentor at Google for the past two years. Aside from his notable AI credentials and self-starter attitude, Ryan is a remarkable coworker and person. He comes to work everyday with a positive attitude and truly cares about the well-being of his teammates. It was an honor to work with Ryan and he will be a valuable addition to any team he joins--not simply due to his technical skills, but also with the supporting presence he will provide to the rest of the team.",
+          author: <a href="https://www.linkedin.com/in/kendallpark/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Kendall Park</a>,
+          role: "MD-PhD Student and Software Developer"
+        },
+        {
+          text: "Ryan was a mentor on my 20% role at Google and our project TL. Throughout our time together, he has demonstrated technical, organizational, and interpersonal excellence; he provided detailed help on my data analysis project, coordinated multiple team priorities, and spearheaded a hackathon in collaboration with sister research teams to upgrade our collective infrastructure. Ryan's skillset would make him a valuable team member or leader no matter where he goes—on top of being a fantastic person to work with.",
+          author: <a href="https://www.linkedin.com/in/musicbyjing/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Jing Liu</a>,
+          role: "Software Engineer at Google"
         }
       ]
     },
@@ -172,54 +207,84 @@ function App() {
       category: "Cross-Functional Collaboration",
       quotes: [
         {
-          text: "Ryan effectively brought all stakeholders to the table to identify the required changes to an existing ML stack. His strong focus on timely outcomes, technical understanding, and outstanding team-player spirit were critical to the success of the project.",
-          author: "Timo Kohlberger",
-          role: "Collaborator"
+          text: "I had the pleasure to work with Ryan on a collaboration with another business unit in Asia with the goal of customizing, retraining and deploying an existing medical ML solution. In his role as the tech and project lead, he effectively brought all stakeholders to one table in order to identify required changes to the existing stack and agree upon the best solution approach. He assigned project roles and responsibilities early on, effectively tracked progress, and identified and escalated roadblocks quickly. I was particularly impressed by his strong focus on timely and impactful outcomes, his very strong technical understanding, and outstanding team player spirit.",
+          author: <a href="https://www.linkedin.com/in/timo-kohlberger-b5a1408/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Timo Kohlberger</a>,
+          role: "Senior Software Engineer at Google"
         },
         {
-          text: "Ryan's ability to coordinate multi-stakeholder efforts is remarkable. He led a team of engineers and scientists across Google to achieve milestones in air quality modeling, showcasing not just his technical expertise but his ability to communicate and influence effectively.",
-          author: "Gautam Prasad",
-          role: "Manager at Google"
+          text: "Ryan and I worked together during my time as a 20% Program Manager supporting the Health AI team at Google. Ryan's expertise and professionalism in developing end-to-end AI-based models and conducting research continuously added an immense amount of value to the projects he was part of. Combined with his outstanding communication skills, Ryan is also an absolute pleasure to work with; he is always helpful with confidence and enthusiasm. Ryan's skills, personal and leadership qualities would make him an invaluable addition to any project or organisation.",
+          author: <a href="https://www.linkedin.com/in/charlottehardt/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Charlotte Hardt</a>,
+          role: "Senior Innovation Consultant @ Google"
         }
       ]
     },
     {
       category: "Technical Expertise and Innovation",
       quotes: [
+
         {
-          text: "Ryan is one of the best scientists, engineers, and team players I've worked with. He combines deep technical expertise with a practical approach to solving real-world problems. His work in geospatial modeling and medical imaging was exceptional.",
-          author: "An Zheng",
-          role: "Google Health AI"
+          text: "Ryan is an independent, self-motivated, and personable Software and ML Research Engineer. From being able to independently understand, formulate, and compose solutions, collaborate with a variety of engineers and cross-functional stakeholders, Ryan has the skills needed to thrive in an ambiguous and dynamic work environment. Ryan's diverse skill set is apparent from the projects he independently drove, which demonstrate both versatility in applying cutting edge deep learning techniques to solve real-world problems and the ability to work with experts from various fields to make these efforts successful: from lung cancer detection on chest CTs, natural language processing of medical reports, to being a tech lead (TL) on our geo-spatial modeling efforts in environmental health. Furthermore, during his time on my team, Ryan also became a mentor and coach to more junior engineers, and would bring that technical leadership to any organization lucky enough to hire him.",
+          author: <a href="https://www.linkedin.com/in/krish-eswaran-1ab2b612/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Krish Eswaran</a>,
+          role: "Senior Staff Software Engineer at Google"
         },
         {
-          text: "Ryan demonstrated exceptional technical skills and leadership abilities as the tech lead for lung cancer AI models. His contributions to NLP and multimodal modeling for clinical applications showcased his deep understanding of the healthcare domain.",
-          author: "Marcin Sieniek",
-          role: "Google Health AI"
+          text: "Ryan is an extremely strong ML engineer with expertise in developing and tuning complex multi-stage ML models for use in healthcare applications, and then carrying the work through to the next stage of understanding the different workflows and set ups where the model may be most useful. Perhaps more importantly, he's a team player and a fast learner - traits that when combined with his technical skills, makes him an asset to any team.",
+          author: <a href="https://www.linkedin.com/in/yunliu0/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Yun Liu</a>,
+          role: "Senior Staff Research Scientist"
         },
         {
-          text: "Ryan is an extremely strong ML research engineer with expertise in building and fine-tuning complex ML models for healthcare applications. His drive, enthusiasm, and collegiate style make him an asset to any team.",
-          author: "Shruthi Prabhakara",
-          role: "Google"
-        }
+          text: [
+            "I had the pleasure of working with Ryan on my team, where he demonstrated exceptional technical skills and leadership abilities. Ryan led the development of the air quality modeling project where he coordinated a team of 6 contributors. He was also the technical lead for the creation of AI-based vision models for incidental lung cancer detection using chest CT scans.",
+            
+            "Ryan's expertise in AI and machine learning was invaluable as he designed and conducted reader studies to evaluate the integration of lung cancer AI models into clinical workflows. He also showed his ability to lead cross-functional collaboration by designing the integration of NLP and multi-modal models for clinical applications.",
+            
+            "In short, I highly recommend Ryan for any senior software engineering role. He would be an asset to any team and would bring a wealth of technical knowledge, leadership experience, and a commitment to delivering outstanding results."
+          ].map((paragraph, i) => (
+            <p key={i} className="mb-4 last:mb-0">
+              {paragraph}
+            </p>
+          )),
+          author: <a href="https://www.linkedin.com/in/marcin-sieniek/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Marcin Sieniek</a>,
+          role: "Staff Software Engineer"
+        },
+        {
+          text: "Ryan is an extremely strong ML research engineer with expertise building ML models for healthcare. More importantly, his drive and enthusiasm for projects in this domain, his perseverance, along with his highly collegiate style of working makes him an asset to any team.",
+          author: <a href="https://www.linkedin.com/in/shruthi-prabhakara-9396804b/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Shruthi Prabhakara</a>,
+          role: "Engineering Lead, AI @ Google Health"
+        },
+        {
+          text: [
+            "I worked closely with Ryan for a long time. He is one of the best scientists, engineers, and team players I have known.",
+            
+            "We worked together on a geospatial modeling project, and he was the tech lead of this project. He collaborated with colleagues from diverse scientific backgrounds to identify problems and opportunities in this project. He also leveraged HPC and machine-learning frameworks to develop effective and efficient computational solutions. Furthermore, as the tech lead, he played a critical role in sharing and explaining our computational models and applications to a broad audience from diverse disciplines in Google.",
+            
+            "In addition to his impressive engineering and communication skills, he also has a record of publications comparable to professors at top-tier research universities. He has numerous highly-cited research papers in the medical imaging domain.",
+            
+            "Ryan is a truly outstanding scientist and a reliable teammate. Any company would be lucky to have him."
+          ].map((paragraph, i) => (
+            <p key={i} className="mb-4 last:mb-0">
+              {paragraph}
+            </p>
+          )),
+          author: <a href="hhttps://www.linkedin.com/in/anz25/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">An Zheng</a>,
+          role: "Software Engineer at Google"
+        },
       ]
     },
     {
       category: "Work Ethic and Team Spirit",
       quotes: [
         {
-          text: "Ryan consistently brought innovative ideas to the table and demonstrated impressive technical skills. He worked hard to create a welcoming environment and supported his teammates in achieving success.",
-          author: "Daniel Golden",
-          role: "Manager at Google"
+          text: "Ryan is a brilliant engineer who was one of my most favorite people to work with at Google. We spent almost 2 years working together on AI-based systems for managing lung cancer. Some of Ryan's greatest strengths are his ability to quickly pick up new concepts, his work ethic, and his humility. He's incredibly approachable, very easy to work with, and always willing to lend a helping hand. Ryan will be an asset to any team, and I highly recommend him!",
+          author: <a href="https://www.linkedin.com/in/charlestlau/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Charles Lau</a>,
+
+          role: "Research Radiologist at Google / Associate Clinical Professor"
         },
         {
-          text: "Ryan was always positive and a real team player. He looked out for his teammates, especially junior engineers, and fostered a culture of collaboration and inclusivity.",
-          author: "Varun Godbole",
-          role: "Google"
-        },
-        {
-          text: "Ryan has a rare combination of humility, work ethic, and quick learning ability. He's incredibly approachable and always willing to lend a helping hand. He's a brilliant engineer and a fantastic collaborator.",
-          author: "Charles Lau",
-          role: "MD, MBA, Google"
+          text: "I loved working with Ryan!!! He was always positive and was a real team player. I loved how he always looked out for other people, especially the more junior engineers.",
+          author: <a href="https://www.linkedin.com/in/godbolevarun/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Varun Godbole</a>,
+
+          role: "Senior Software Engineer at Google"
         }
       ]
     }
@@ -447,7 +512,7 @@ function App() {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {category.quotes.map((quote, qIndex) => (
                   <div key={qIndex} className="bg-gray-50 rounded-lg p-6 shadow-lg">
-                    <p className="text-gray-600 mb-4 italic">"{quote.text}"</p>
+                    <p className="text-gray-600 mb-4 italic">{quote.text}</p>
                     <div className="text-gray-900 font-semibold">{quote.author}</div>
                     <div className="text-gray-500">{quote.role}</div>
                   </div>
