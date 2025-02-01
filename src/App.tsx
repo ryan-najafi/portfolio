@@ -319,7 +319,7 @@ function App() {
             Hi, I'm Ryan Arman, a technical leader, innovator, and entrepreneur with over two decades of experience in machine learning, medical devices, human-AI interaction, robotics, and ranking systems. 
           </p>
           <p className="text-xl text-gray-300 mb-12 leading-relaxed">
-            My journey spans groundbreaking contributions in healthcare AI, robotics, and ads ranking systems. I've built solutions that directly impact lives, from improving cancer diagnosis workflows to enabling precision in robotic surgery and optimizing large-scale ranking systems. 
+            My journey spans groundbreaking contributions in healthcare AI, robotics, and ranking systems. I've built solutions that directly impact lives, from improving cancer diagnosis workflows to enabling precision in robotic surgery and optimizing large-scale ranking systems. 
             </p>     
 
           <div className="flex justify-center space-x-6 mb-12">
