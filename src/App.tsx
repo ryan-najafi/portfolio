@@ -293,10 +293,10 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800">
       {/* Navigation */}
-      <nav className="fixed w-full bg-transparent backdrop-blur-sm z-10 p-6">
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
+      <nav className="fixed w-full bg-gray-900/90 z-10 p-4 md:p-6">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between md:items-center gap-4">
           <h1 className="text-white text-xl font-light">Ryan Arman, PhD</h1>
-          <div className="space-x-8">
+          <div className="flex flex-wrap gap-4 md:gap-8">
             <a href="#home" className="text-gray-300 hover:text-white transition">Home</a>
             <a href="#about" className="text-gray-300 hover:text-white transition">About</a>
             <a href="#work" className="text-gray-300 hover:text-white transition">Work</a>
@@ -307,14 +307,14 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section id="home" className="relative min-h-screen flex items-center justify-center px-4">
+      <section id="home" className="relative min-h-screen flex items-center justify-center px-4 pt-24 md:pt-0">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80')] bg-cover bg-center opacity-20"></div>
         </div>
         
         <div className="relative max-w-4xl mx-auto text-center">
-          <h2 className="text-6xl font-bold text-white mb-6">Ryan Arman</h2>
-          <p className="text-2xl text-blue-400 mb-8">Transforming Healthcare, Robotics, AI, and Ranking Systems with Two Decades of Innovation and Leadership</p>
+          <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">Ryan Arman</h2>
+          <p className="text-xl md:text-2xl text-blue-400 mb-8">Transforming Healthcare, Robotics, AI, and Ranking Systems with Two Decades of Innovation and Leadership</p>
           <p className="text-xl text-gray-300 mb-12 leading-relaxed">
             Hi, I'm Ryan Arman, a technical leader, innovator, and entrepreneur with over two decades of experience in machine learning, medical devices, human-AI interaction, robotics, and ranking systems. 
           </p>
