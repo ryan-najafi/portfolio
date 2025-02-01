@@ -214,7 +214,7 @@ function App() {
         {
           text: "Ryan and I worked together during my time as a 20% Program Manager supporting the Health AI team at Google. Ryan's expertise and professionalism in developing end-to-end AI-based models and conducting research continuously added an immense amount of value to the projects he was part of. Combined with his outstanding communication skills, Ryan is also an absolute pleasure to work with; he is always helpful with confidence and enthusiasm. Ryan's skills, personal and leadership qualities would make him an invaluable addition to any project or organisation.",
           author: <a href="https://www.linkedin.com/in/charlottehardt/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Charlotte Hardt</a>,
-          role: "Senior Innovation Consultant @ Google"
+          role: "Senior Innovation Consultant at Google"
         }
       ]
     },
@@ -230,7 +230,7 @@ function App() {
         {
           text: "Ryan is an extremely strong ML engineer with expertise in developing and tuning complex multi-stage ML models for use in healthcare applications, and then carrying the work through to the next stage of understanding the different workflows and set ups where the model may be most useful. Perhaps more importantly, he's a team player and a fast learner - traits that when combined with his technical skills, makes him an asset to any team.",
           author: <a href="https://www.linkedin.com/in/yunliu0/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Yun Liu</a>,
-          role: "Senior Staff Research Scientist"
+          role: "Senior Staff Research Scientist at Google"
         },
         {
           text: [
@@ -245,7 +245,7 @@ function App() {
             </p>
           )),
           author: <a href="https://www.linkedin.com/in/marcin-sieniek/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline">Marcin Sieniek</a>,
-          role: "Staff Software Engineer"
+          role: "Staff Software Engineer at Google"
         },
         {
           text: "Ryan is an extremely strong ML research engineer with expertise building ML models for healthcare. More importantly, his drive and enthusiasm for projects in this domain, his perseverance, along with his highly collegiate style of working makes him an asset to any team.",
