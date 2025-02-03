@@ -295,7 +295,7 @@ function App() {
       {/* Navigation */}
       <nav className="fixed w-full bg-gray-900/90 z-10 p-4 md:p-6">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-between md:items-center gap-4">
-          <h1 className="text-white text-xl font-light">Ryan Arman, PhD</h1>
+          <span className="text-white text-xl font-light">Ryan Arman, PhD</span>
           <div className="flex flex-wrap gap-4 md:gap-8">
             <a href="#home" className="text-gray-300 hover:text-white transition">Home</a>
             <a href="#about" className="text-gray-300 hover:text-white transition">About</a>
@@ -313,7 +313,7 @@ function App() {
         </div>
         
         <div className="relative max-w-4xl mx-auto text-center">
-          <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">Ryan Arman</h2>
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">Ryan Arman</h1>
           <p className="text-xl md:text-2xl text-blue-400 mb-8">Transforming Healthcare, Robotics, AI, and Ranking Systems with Two Decades of Innovation and Leadership</p>
           <p className="text-xl text-gray-300 mb-12 leading-relaxed">
             Hi, I'm Ryan Arman, a technical leader, innovator, and entrepreneur with over two decades of experience in machine learning, medical devices, human-AI interaction, robotics, and ranking systems. 
